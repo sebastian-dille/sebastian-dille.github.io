@@ -1,4 +1,4 @@
---- --- @import "jekyll-theme-minimal";
+@import "jekyll-theme-minimal";
 // Scss Document
 
 .entry-2 img {
@@ -36,26 +36,38 @@
   transform: rotate(360deg);
 }
 
-.rounded-social-buttons .fa-linkedin,
+.rounded-social-buttons .fa-twitter,
+.fa-facebook-f,
+.fa-linkedin,
 .fa-github,
 .fa-orcid,
-.fa-researchgate,
 .fa-cv,
+.fa-researchgate,
 .fa-envelope {
   font-size: 25px;
 }
 
-.rounded-social-buttons .social-button.cv {
-  background: #fbb324dd;
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
 }
 
-.rounded-social-buttons .social-button.cv:hover,
-.rounded-social-buttons .social-button.cv:focus {
-  color: #fbb324dd;
+.rounded-social-buttons .social-button.facebook:hover,
+.rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
   background: #fefefe;
-  border-color: #fbb324dd;
+  border-color: #3b5998;
 }
 
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover,
+.rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
 
 .rounded-social-buttons .social-button.linkedin {
   background: #007bb5;
@@ -110,4 +122,15 @@
   color: #5dd1b0;
   background: #fefefe;
   border-color: #5dd1b0;
+}
+
+.rounded-social-buttons .social-button.cv {
+  background: #60c17d;
+}
+
+.rounded-social-buttons .social-button.cv:hover,
+.rounded-social-buttons .social-button.cv:focus {
+  color: #60c17d;
+  background: #fefefe;
+  border-color: #000000;
 }
