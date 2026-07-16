@@ -1,10 +1,7 @@
----
----
-
-@import "jekyll-theme-minimal";
+--- --- @import "jekyll-theme-minimal";
 // Scss Document
 
-.entry-2 img{
+.entry-2 img {
   max-width: 200px;
 }
 
@@ -32,47 +29,40 @@
   margin-bottom: 0.25rem;
 }
 
-.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
   -webkit-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
-.rounded-social-buttons .fa-twitter,
-.fa-facebook-f,
-.fa-linkedin,
+.rounded-social-buttons .fa-linkedin,
 .fa-github,
 .fa-orcid,
 .fa-researchgate,
+.fa-cv,
 .fa-envelope {
   font-size: 25px;
 }
 
-.rounded-social-buttons .social-button.facebook {
-  background: #3b5998;
+.rounded-social-buttons .social-button.cv {
+  background: #fbb324dd;
 }
 
-.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
-  color: #3b5998;
+.rounded-social-buttons .social-button.cv:hover,
+.rounded-social-buttons .social-button.cv:focus {
+  color: #fbb324dd;
   background: #fefefe;
-  border-color: #3b5998;
+  border-color: #fbb324dd;
 }
 
-.rounded-social-buttons .social-button.twitter {
-  background: #55acee;
-}
-
-.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
-  color: #55acee;
-  background: #fefefe;
-  border-color: #55acee;
-}
 
 .rounded-social-buttons .social-button.linkedin {
   background: #007bb5;
 }
 
-.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+.rounded-social-buttons .social-button.linkedin:hover,
+.rounded-social-buttons .social-button.linkedin:focus {
   color: #007bb5;
   background: #fefefe;
   border-color: #007bb5;
@@ -82,7 +72,8 @@
   background: #000000;
 }
 
-.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+.rounded-social-buttons .social-button.github:hover,
+.rounded-social-buttons .social-button.github:focus {
   color: #000000;
   background: #fefefe;
   border-color: #000000;
@@ -92,7 +83,8 @@
   background: #60c17d;
 }
 
-.rounded-social-buttons .social-button.email:hover, .rounded-social-buttons .social-button.email:focus {
+.rounded-social-buttons .social-button.email:hover,
+.rounded-social-buttons .social-button.email:focus {
   color: #60c17d;
   background: #fefefe;
   border-color: #000000;
@@ -102,7 +94,8 @@
   background: #a6ce3b;
 }
 
-.rounded-social-buttons .social-button.orcid:hover, .rounded-social-buttons .social-button.orcid:focus {
+.rounded-social-buttons .social-button.orcid:hover,
+.rounded-social-buttons .social-button.orcid:focus {
   color: #a6ce3b;
   background: #fefefe;
   border-color: #a6ce3b;
@@ -112,7 +105,8 @@
   background: #5dd1b0;
 }
 
-.rounded-social-buttons .social-button.researchgate:hover, .rounded-social-buttons .social-button.researchgate:focus {
+.rounded-social-buttons .social-button.researchgate:hover,
+.rounded-social-buttons .social-button.researchgate:focus {
   color: #5dd1b0;
   background: #fefefe;
   border-color: #5dd1b0;
