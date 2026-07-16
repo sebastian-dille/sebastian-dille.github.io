@@ -98,6 +98,16 @@
   border-color: #000000;
 }
 
+.rounded-social-buttons .social-button.cv {
+  background: #60c17d;
+}
+
+.rounded-social-buttons .social-button.cv:hover, .rounded-social-buttons .social-button.cv:focus {
+  color: #60c17d;
+  background: #fefefe;
+  border-color: #000000;
+}
+
 .rounded-social-buttons .social-button.orcid {
   background: #a6ce3b;
 }
